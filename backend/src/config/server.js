@@ -12,7 +12,7 @@ server.use(bodyParser.json())
 server.use(allowCors)
 
 server.listen(port, function () {
-  console.log('running port 3004')
+  console.log(`Backend running in port: ${port}`)
 })
 
 module.exports = server
